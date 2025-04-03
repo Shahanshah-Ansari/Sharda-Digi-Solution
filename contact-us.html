@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <title>Apply</title>
+        <style>
+            .contacts{
+                background: linear-gradient(45deg, #f8d59e, #f3f6f3, #d3ffdb);
+                padding-top: 10px;
+                padding-top: 10px;
+            }
+            .main-footer{
+                background: linear-gradient(130deg, #fdcc7e, #f3f6f3, #d3ffdb);
+            }
+            a:hover{
+                text-decoration: none;
+            }
+            a{
+                color: black;
+            }
+            #card{
+                position: relative;
+                height: 100px;
+                width: 100px;
+                background: #b50909;
+            }
+            #btn{
+                background: #8b0000;
+                color: #fffff0;
+            }
+            #btn:hover{
+                background: #008b27;
+            }
+            .footer-logo img{
+                position: relative;
+                height: 100px;
+                width: 250px;
+                mix-blend-mode: multiply;
+                display: flex;
+            }
+            .links img{
+                position: relative;
+                height: 50px;
+                width: 50px;
+                padding: 2px;
+                display: flow-root;
+            }
+            .up-btn{
+      position: relative;
+      height: 50px;
+      width: 190px;
+      padding: 10px;
+      margin-top: 30px;
+      margin-left: 20px;
+      justify-content: end;
+      background: rgb(46, 169, 12);
+      border-top-left-radius: 30%;
+      border-bottom-left-radius: 30%;
+    }
+    .up-btn a{
+      position: relative;
+      height: 20px;
+      padding-left: 10px;
+      color: #f3f6f3;
+    }
+    .up-btn a:hover{
+      color: #faad27;
+    }
+    .header-btn{
+      
+      background: #fffff0;
+    }
+    .logo-area img{
+      position: relative;
+      height: 130px;
+      width: 350px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-left: 10px;
+      display: flow-root;
+      mix-blend-mode: multiply;
+      
+    }
+    #marq{
+      position: relative;
+      font-weight: 900;
+      font-size: 25px;
+      padding-top: 40px;
+      
+      font-style: italic;
+      color: #ff951c;
+    }
+    .navbar{
+      background: rgb(253, 140, 11);  
+    }
+    #first-btn:hover{
+      background: #0f4cce;
+    }
+    .fixed {
+    position: fixed;
+    top:0; left:0;
+    width: 100%; 
+    z-index: 1;
+   } 
+   .whats{
+      position: fixed;
+      right: 40px;
+      bottom: 40px;
+      z-index: 1;
+    }  
+        </style>
+    </head>
+    <body>
+        <di class="whats d-flex flex-wrap"><a href="https://wa.me/919148213022" target="_blank"><img src="images/whats.png"/></a></di>
+        <div class="header d-flex justify-content-center flex-wrap p-0 m-0" style="background: #ebebc1;">
+            <div class="col-xl-2 col-lg-2 col-md-2 mt-1 d-flex">
+              <p>Call:</p>
+              <p><a href="+91-83839-28391"><i class="bi bi-telephone"></i> +91-91482-13022</a></p>                  
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 mt-1 d-flex">
+                <p>Email:</p>
+                <p><a href="shardaddigisolution.com"><i class="bi bi-envelope"></i>shardaddigisolution.com</a></p>
+            </div>
+          </div>
+        <div class="header-btn">
+            <div class="bottom-header d-flex justify-content-between flex-wrap">
+              <div class="logo-area">
+                <img src="images/logo-4.png" alt="Sarda Digi Solution" />
+              </div>
+              <marquee id="marq" width="40%" direction="left" height="100px">
+                SHARDA DIGI SOLUTION
+                </marquee>
+              <div class="up-btn">
+                <span><a href="login.html">Login</a></span>
+                <span style="color: #f4f4f3;">|</span>
+                <span><a href="Register.html">Register</a></span>
+              </div>
+            </div>
+          </div>
+          <div class="header3">
+            <nav class="navbar navbar-expand-lg navbar-light p-0 m-0 ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                  aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav header1">
+                        <a class="nav-item nav-link text-white ml-2" href="index.html" id="first-btn">Home </a>
+                  <a class="nav-item nav-link text-white ml-2" href="services.html" id="first-btn">Services</a>                    
+                  <a class="nav-item nav-link text-white ml-2" href="About-us.html" id="first-btn">About Us</a>
+                  <a class="nav-item nav-link text-white ml-2" href="contact-us.html" id="first-btn">Contact Us</a>  
+                  <a class="nav-item nav-link text-white ml-2" href="News.html" id="first-btn">News&Media</a> 
+                  <a class="nav-item nav-link text-white ml-2" href="Franchise.html" id="first-btn">Apply For Franchise</a> 
+                  <a class="nav-item nav-link text-white ml-2" href="apply.html" id="first-btn">Apply For job</a>
+                    </div>
+                </div>
+            </nav>
+            </div>
+        <section class="contacts">
+            <div class="container">
+                <div class="page-title contact">
+                    <h1 class="title-5 text-center">Contact Us</h1>
+                </div><br><br><br>
+                <div class="row mb-4">
+                    <div class="col-lg-5 col-md-5">
+                        <div class="cont">
+                            <h3 style="font-weight: bold;">Get in touch</h3>
+                            <h5 style="font-size: large;">Sharda Digi Solution</h5>
+                            <p>Shigli Kameshwar Gadag Karnataka 582210</p>
+    
+                            <h5>Helpline Number:</h5>
+                            <p><a href="/home/tel:+91-8383928391"><i class="bi bi-telephone"></i>+91-91482-13022 </a></p>
+    
+                            <h5>Mail Id:</h5>
+                            <a href="#"><i class="bi bi-envelope"></i> shardadigisolution.com</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7">
+                        <div class="confirm">
+                            <h3>Send us a message</h3>
+                            <form method="post" action="user.php">
+    
+                            <div class="row">
+    
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="margin-top: 15px;">
+                                    <input type="text" class="form-control" id="fname" name="fname" placeholder="First Name" maxlength="10">
+    
+                                    <label id="lblfname" class="validationLabel" style="display: none;"></label>
+                                </div>
+    
+    
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="margin-top: 15px;">
+                                    <input type="text" class="form-control" id="lname" name="lname" placeholder="Last Name" maxlength="10">
+    
+                                    <label id="lbllname" class="validationLabel" style="display: none;"></label>
+                                </div>
+    
+                            </div>
+    
+                            <div class="row">
+    
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="margin-top: 15px;">
+                                    <input type="email" class="form-control" id="Email" name="Email" placeholder="Email Address" maxlength="50" required="">
+    
+                                    <label id="lblEmail" class="valid" style="display: none;"></label>
+                                </div>
+    
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="margin-top: 15px;">
+                                    <input type="text" class="form-control" id="Mobile" name="Mobile" placeholder="Phone Number" maxlength="10" required="">
+    
+                                    <label id="lblMobile" class="validationLabel" style="display: none;"></label>
+                                </div>
+    
+                            </div>
+    
+                            <div class="row">
+    
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top: 15px;">
+                                    <textarea class="form-control" type="textarea" name="Message" id="Message" placeholder="Message" maxlength="50" rows="7"></textarea>
+    
+                                    <label id="lblMessage" class="valid" style="display: none;"></label>
+                                </div>
+    
+    
+                            </div>
+    
+                            <div class="row">
+    
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top: 15px;">
+    
+                                    <button type="submit" id="btn" class="btn">Submit </button>
+    
+                                </div>
+    
+                            </div>
+                            </form>
+    
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="map pt-5">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4500.350893950884!2d73.78341128116504!3d18.468753877821708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc29537599e52fb%3A0xbdcc1f974aaf6f21!2sSharda%20digital%20solutions!5e0!3m2!1sen!2sin!4v1722534068908!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        <footer class="main-footer py-5">
+            <div class="container">
+              <div class="top-footer d-flex justify-content-between flex-wrap bg-white  py-3 px-5" style="border-radius: 80px;">
+                      <div class="footer-logo my-3"> 
+                        <a href="/home/index"><img src="images/logo-4.png" alt="Logo"></a>
+                      </div>
+                        <div class="links d-flex mt-5 ml-5 flex-wrap">
+                          <div class="mr-3 mt-2"><h5>Follow Us on:</h5></div>                   
+                            <div><a href="......"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968764.png" alt="Facebook"></a></div>
+                            <div><a href="......"><img src="https://cdn-icons-png.flaticon.com/128/3955/3955024.png" alt="Instgram"></a></div>
+                            <div><a href="......."><img src="https://cdn-icons-png.flaticon.com/128/3670/3670151.png" alt="Twitter"></a></div>
+                            <div><a href="......."><img src="https://cdn-icons-png.flaticon.com/128/3670/3670147.png" alt="Youtube"></a></div>
+                        </div>
+                    </div>
+              <div class="bottom-footer mt-3">
+                <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-4">
+                    <p>
+                      Looking to register your company in india? Trust Sharda digi solutions to handle your company registration needs with expertise and efficiency. 
+                      Our team of professionals specializes in seamless company registration services, ensuring compliance with all legal requirements. 
+                      With Sharda digi, you can trust that your company registration process will be smooth and hassle-free. We understand the importance of establishing trust and 
+                      credibility in your business endeavors. Partner with Sharda digi solutions for trustworthy company registration in across of india , and set the foundation for 
+                      success in the thriving business hub of India.
+                    </p>
+                  </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3">
+                            <h4>Address:</h4>
+                            <p>Shigli Kameshwar Gadag Karnataka 582210</p>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2">
+                          <h4>Call:</h4>
+                          <p><a href="+91-83839-28391"><i class="bi bi-telephone"></i>+91-91482-13022 </a></p>                  
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3">
+                            <h4>Email:</h4>
+                            <p><a href="shardaddigisolution.com"><i class="bi bi-envelope"></i>shardaddigisolution.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="links-cards">
+                  <div class="row">
+                      <div class="col-xl-5 col-lg-5 col-md-6">
+                          <h3 style="color: black;">Useful Links:</h3>
+                          <div class="links-row">
+                              <ul>
+                                  <span><a href="index.html">Home</a></span>
+                                  <br>
+                                  <span><a href="Benefit.html">Benefits</a></span>
+                              </ul>
+                              <ul>
+                                  <span><a href="About-us.html">About Us</a></span>
+                                  <br>
+                                  <span><a href="contact-us.html">Contact Us</a></span>
+                              </ul>
+                              <ul>
+                                  <span><a href="policy.html">Privacy Policy</a></span>
+                                  <br>
+                                  <span><a href="Term&condition.html">Term & Conditions</a></span>
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="col-xl-7 col-lg-7 col-md-6">
+                          <h3 style="color: black;">Services:</h3>
+                          <div class="links-row">
+                              <ul>
+                                  <span><a href="services.html">Incorporation</a></span>
+                                  <br>
+                                  <span><a href="services.html">IPR</a></span>
+                              </ul>
+                              <ul>
+                                  <span><a href="services.html">Tax Filing</a></span>
+                                  <br>
+                                  <span><a href="services.html">Tax Registration</a></span>
+                              </ul>
+                              
+                          </div>
+                      </div>
+                  </div>
+              </div>
+      
+            </div>
+          </footer>
+          <div class="copyright" style="background: #373066; color: aliceblue;">
+            <div class="container text-center">
+                <p>Copyright &copy; Sarda Digi Solution 2024. All Right Reserved</p>
+            </div>
+          </div>
+          </div>      
+      </body>
+      <script>
+        $(document).ready(function(){
+          $(document).scroll(function () {
+              var count=1
+              var scroll = $(this).scrollTop();
+              var topDist = $("#container").position();
+              if (scroll > 10) {
+                  $('.navbar').addClass("fixed");
+                  $(".container2").animate();
+              } else {
+                  $('.navbar').removeClass("fixed");
+              }
+          });
+        });
+      </script>
+      </html>
